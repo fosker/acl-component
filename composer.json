@@ -1,0 +1,12 @@
+{
+    "name": "fosker/acl",
+    "description": "acl component",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Bogdan Pushkarskiy",
+            "email": "fosker3@gmail.com"
+        }
+    ],
+    "require": {}
+}
