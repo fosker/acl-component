@@ -8,5 +8,10 @@
             "email": "fosker3@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Acl\\": "app/core/Acl"
+        }
+    }
 }
