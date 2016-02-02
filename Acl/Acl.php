@@ -18,12 +18,12 @@ class Acl
         $this->roles = $this->config['roles'];
     }
 
-    private static function loadConfig($cfg = 'config/acl.conf.php')
+    private static function loadConfig($cfg = 'vendor/fosker/acl/Acl/config/acl.conf.php')
     {
         return require $cfg;
     }
 
-    private function saveConfig($cfg = 'config/acl.conf.php')
+    private function saveConfig($cfg = 'vendor/fosker/acl/Acl/config/acl.conf.php')
     {
         $newConfig['roles'] = $this->roles;
         $content = "<?php" . PHP_EOL . "return " . var_export($newConfig, true) . ";";
